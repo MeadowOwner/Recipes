@@ -1,6 +1,13 @@
+body{
+    padding-bottom: 50px;
+}
+
 img{
     width: 750px;
     height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 *{
@@ -14,8 +21,41 @@ h1{
     font-size: 100px;
     font-weight: 2000;
     color:rgb(38, 53, 13);
+    margin: 0 auto;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    border: 2px solid rgba(238, 181, 58, 0.2);
+    background-color: rgb(255, 235, 205, 0.5);
+    width: 500px;
 }
 
 h2{
     font-size: 32px;
+    margin-top: 16px;
+    margin-bottom: auto;
+    margin-left: 20px;
+}
+
+h3{
+    font-size: 24px;
+    margin: 12px;
+    margin-left: 25px;
+}
+
+h4{
+    margin-left: 25px;
+}
+
+p,
+ul,
+ol{
+    margin-left:35px;
+    margin-right: 35px;
+}
+
+.procedure,
+.ingredients,
+.description{
+    border: 3px solid black;
+    margin-bottom: 17px;
 }
